@@ -8,7 +8,7 @@ This repository provides the implementation of **TAD (Token-Adaptive Decoding)**
 
 TAD is designed to reduce unsupported affirmative responses (e.g., answering "yes" when the queried sound is actually absent). The main idea is to contrast model logits under **real audio** and a **matched silent reference**, and then apply a **confidence-guided gating mechanism** at the first decoding step to suppress unreliable affirmative predictions when audio evidence is insufficient.
 
-Our method is simple, plug-and-play, and does not require any parameter updates. It can be used as an inference-time decoding strategy for improving the reliability of audio-grounded decisions. The paper evaluates TAD on hallucination-related benchmarks including **AudioCaps-Hallucination** and **Clotho-AQA**. :contentReference[oaicite:1]{index=1}
+Our method is simple, plug-and-play, and does not require any parameter updates. It can be used as an inference-time decoding strategy for improving the reliability of audio-grounded decisions. The paper evaluates TAD on hallucination-related benchmarks including AudioCaps-Hallucination and Clotho-AQA}
 
 ## 🔔 Note
 
